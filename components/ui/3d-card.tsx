@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import React, { createContext, useState, useContext, useRef, useEffect } from "react";
 
 const MouseEnterContext = createContext<[boolean, React.Dispatch<React.SetStateAction<boolean>>] | undefined>(undefined);
